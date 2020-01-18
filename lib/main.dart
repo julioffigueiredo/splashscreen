@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: SplashScreen.navigate(
-        name: 'intro.flr',
+        name: 'sendsuccess.flr',
         next: (context) => MyHomePage(title: "Flutter Demo Home Page"),
         startAnimation: '1',
         until: () => Future.delayed(Duration(seconds: 5)),
